@@ -144,12 +144,14 @@ export default function Navbar() {
               </button>
             ))}
 
-            <button
-              onClick={openTerminal}
-              className="text-xl font-mono text-gray-400 uppercase tracking-widest hover:text-[#D4AF37]"
-            >
-              > TERMINAL_
-            </button>
+<button
+  onClick={openTerminal}
+  className="text-xl font-mono text-gray-400 uppercase tracking-widest hover:text-[#D4AF37]"
+>
+  &gt; TERMINAL_
+</button>
+
+
 
             <button
               onClick={openContact}

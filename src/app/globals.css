@@ -3,63 +3,35 @@
 @tailwind utilities;
 
 :root {
-  /* Premium Gold Color Variable */
+  /* New Premium Gold Color */
   --gold: #D4AF37;
 }
 
 body {
-  /* CHANGED: Switched to Obsidian Black for the new theme */
-  background-color: #050505;
-  /* CHANGED: Switched text to Off-White */
-  color: #e5e5e5;
+  /* Changed from black to white */
+  background-color: #ffffff;
+  /* Changed from white to dark gray for text */
+  color: #111111;
   font-family: Arial, Helvetica, sans-serif;
-  
-  /* CRITICAL: Hides default cursor for the Custom Cursor component */
-  cursor: none; 
 }
 
-/* Ensure links and buttons also hide the default cursor */
-a, button {
-  cursor: none; 
-}
-
-/* Updated selection color */
+/* Updated selection color to Gold */
 ::selection {
   background-color: var(--gold);
   color: black;
 }
 
-/* =========================================
-   CUSTOM UTILITIES FOR NAVBAR
-   ========================================= */
-
-/* Creates the hollow "outline" text effect */
-.stroke-text {
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
-  color: transparent;
-}
-
-/* Hover state for the Navbar links */
-.group:hover .stroke-text,
-.hover\:text-stroke-white:hover {
-  -webkit-text-stroke: 1px #ffffff;
-  color: transparent;
-}
-
-
-/* =========================================
-   CUSTOM SCROLLBAR (Dark Theme)
-   ========================================= */
+/* Custom Scrollbar - Gold Theme */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111111; /* Dark track */
+  background: #f0f0f0; /* Light gray track */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333333; /* Dark gray thumb */
+  background: #ccc; /* Lighter thumb */
   border-radius: 4px;
 }
 
@@ -80,7 +52,7 @@ a, button {
   overscroll-behavior: contain;
 }
 
-/* Ensure Lenis (Smooth Scroll) works correctly */
+/* Ensure Lenis doesn't interfere with internal scrolls */
 html.lenis, html.lenis body {
   height: auto;
 }
