@@ -9,38 +9,34 @@ import img2 from '../images/image.2.jpg';
 import img3 from '../images/image.3.jpg';
 import img4 from '../images/image.4.jpg';
 
-// Mock Data
+
 const operatives = [
   {
     id: "OP_01",
-    name: "ALEX V.",
+    name: "HASHIM",
     role: "ARCHITECT",
     status: "ONLINE",
-    stats: { code: 98 },
     image: img1
   },
   {
     id: "OP_02",
-    name: "SARAH J.",
+    name: "ANSHID",
     role: "NEURAL NET",
-    status: "BUSY",
-    stats: { code: 96 },
+    status: "ONLINE",
     image: img2
   },
   {
     id: "OP_03",
-    name: "DAVIDE R.",
+    name: "FARHAN",
     role: "SECURITY",
     status: "ONLINE",
-    stats: { code: 99 },
     image: img3
   },
   {
     id: "OP_04",
-    name: "ELENA K.",
+    name: "ADEEB",
     role: "VISUALS",
-    status: "OFFLINE",
-    stats: { code: 94 },
+    status: "ONLINE",
     image: img4
   }
 ];
