@@ -16,6 +16,7 @@ const operatives = [
     name: "HASHIM",
     role: "ARCHITECT",
     status: "ONLINE",
+    stats: { code: 98 },
     image: img1
   },
   {
@@ -23,6 +24,7 @@ const operatives = [
     name: "ANSHID",
     role: "NEURAL NET",
     status: "ONLINE",
+    stats: { code: 98 },
     image: img2
   },
   {
@@ -30,6 +32,7 @@ const operatives = [
     name: "FARHAN",
     role: "SECURITY",
     status: "ONLINE",
+    stats: { code: 98 },
     image: img3
   },
   {
@@ -37,6 +40,7 @@ const operatives = [
     name: "ADEEB",
     role: "VISUALS",
     status: "ONLINE",
+    stats: { code: 98 },
     image: img4
   }
 ];
