@@ -66,7 +66,7 @@ export default function AboutSection() {
              >
                 <div className="absolute inset-2 border border-dashed border-[#D4AF37]/50 rounded-full animate-[spin_10s_linear_infinite]" />
                 <span className="text-[10px] font-mono text-[#D4AF37] text-center leading-tight">
-                  NOVA<br/>CERTIFIED<br/>AGENCY
+                  VYBAND<br/>CERTIFIED<br/>AGENCY
                 </span>
              </motion.div>
           </div>
@@ -84,7 +84,7 @@ export default function AboutSection() {
                 </h4>
                 <p className="text-gray-600 leading-relaxed text-sm md:text-base">
                   We don't just build websites; we construct digital ecosystems. 
-                  Nova Synthesis sits at the intersection of art, engineering, and user psychology.
+                  Vyband sits at the intersection of art, engineering, and user psychology.
                   Our goal is to override the mundane with precision.
                 </p>
              </div>

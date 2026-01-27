@@ -76,7 +76,7 @@ export default function ContactSection() {
 
            {/* Copyright - Changed to gray */}
            <span className="text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-             © 2025 NOVA SYNTHESIS
+             © 2026 VYBAND all rights reserved
            </span>
         </div>
       </div>

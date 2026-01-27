@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const bootLines = [
-  "INITIALIZING NOVA KERNEL...",
+  "INITIALIZING VYBAND KERNEL...",
   "LOADING NEURAL MESH...",
   "OPTIMIZING VIRTUAL DOM...",
   "ESTABLISHING SECURE UPLINK...",

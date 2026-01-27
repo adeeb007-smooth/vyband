@@ -13,7 +13,7 @@ import img4 from '../images/image.4.jpg';
 const operatives = [
   {
     id: "OP_01",
-    name: "ANSHID.",
+    name: "HASHIM",
     role: "ARCHITECT",
     status: "ONLINE",
     stats: { code: 98 },
@@ -21,7 +21,7 @@ const operatives = [
   },
   {
     id: "OP_02",
-    name: "HASHIM CMK.",
+    name: "ANSHID",
     role: "NEURAL NET",
     status: "ONLINE",
     stats: { code: 98 },
@@ -29,7 +29,7 @@ const operatives = [
   },
   {
     id: "OP_03",
-    name: "ADEEB AHMED.",
+    name: "FARHAN",
     role: "SECURITY",
     status: "ONLINE",
     stats: { code: 98 },
@@ -37,7 +37,7 @@ const operatives = [
   },
   {
     id: "OP_04",
-    name: "FARHAN.",
+    name: "ADEEB",
     role: "VISUALS",
     status: "ONLINE",
     stats: { code: 98 },

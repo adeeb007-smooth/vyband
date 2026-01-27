@@ -31,7 +31,7 @@ export default function Terminal() {
       // If opening normally (not contact), show the OS intro if history is empty
       if (contactMode === 'IDLE' && history.length === 0) {
          setHistory([
-            "NOVA OS [Version 1.0.4]",
+            "VYBAND OS [Version 1.0.4]",
             "Type 'help' for commands.",
             ""
          ]);
@@ -112,7 +112,7 @@ export default function Terminal() {
   const finishContact = () => {
     setTimeout(() => {
         setContactMode('IDLE');
-        setHistory(["NOVA OS [Version 1.0.4]", "Type 'help' for commands."]);
+        setHistory(["VYBAND OS [Version 1.0.4]", "Type 'help' for commands."]);
         setFormData({ name: '', email: '', message: '' });
     }, 2000);
   };
@@ -162,7 +162,7 @@ export default function Terminal() {
     }
 
     const cmd = input.trim().toLowerCase();
-    addToHistory(`visitor@nova:~$ ${input}`);
+    addToHistory(`visitor@vyband:~$ ${input}`);
 
     switch (cmd) {
       case 'help':
@@ -175,7 +175,7 @@ export default function Terminal() {
         break;
       
       case 'about':
-        addToHistory("NOVA SYNTHESIS: Elite development collective specializing in WebGL, 3D Interfaces, and High-Performance Web Apps.");
+        addToHistory("VYBAND: Elite development collective specializing in WebGL, 3D Interfaces, and High-Performance Web Apps.");
         break;
         
       case 'team':
@@ -228,7 +228,7 @@ export default function Terminal() {
                 <div className="w-3 h-3 rounded-full bg-green-500" />
               </div>
               <div className="text-gray-500 text-xs">
-                {contactMode === 'IDLE' ? 'visitor@nova:~' : 'secure:uplink'}
+                {contactMode === 'IDLE' ? 'visitor@vyband:~' : 'secure:uplink'}
               </div>
               <div className="w-4" /> 
             </div>
@@ -246,7 +246,7 @@ export default function Terminal() {
               
               <form onSubmit={handleCommand} className="flex items-center mt-2">
                 <span className={`mr-2 ${contactMode === 'IDLE' ? 'text-cyan-400' : 'text-green-400'}`}>
-                  {contactMode === 'IDLE' ? 'visitor@nova:~$' : '>'}
+                  {contactMode === 'IDLE' ? 'visitor@vyband:~$' : '>'}
                 </span>
                 <input 
                   ref={inputRef}

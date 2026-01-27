@@ -104,7 +104,7 @@ export default function Navbar() {
           {/* Mobile Logo (Gold) */}
           <div className="flex items-center gap-2" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
              <div className="w-8 h-8 bg-gradient-to-br from-[#D4AF37] to-[#B59025] rounded-lg rotate-45 shadow-[0_0_10px_#D4AF37]" />
-             <span className="font-bold text-xl tracking-tighter text-black ml-2">NOVA</span>
+             <span className="font-bold text-xl tracking-tighter text-black ml-2">VYBAND</span>
           </div>
 
           {/* Burger Button (Black) */}

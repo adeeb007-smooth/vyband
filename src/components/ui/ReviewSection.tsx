@@ -8,21 +8,21 @@ const reviews = [
     id: "LOG_042",
     client: "Nebula Dynamics",
     role: "AI Research",
-    text: "The interface Nova built didn't just display our data; it evolved with it. The neural feedback loop increased user retention by 400%.",
+    text: "The interface VYBAND built didn't just display our data; it evolved with it. The neural feedback loop increased user retention by 400%.",
     signal: 98
   },
   {
     id: "LOG_089",
     client: "CyberCore Ltd",
     role: "Fintech Security",
-    text: "We needed a fortress that looked like a gallery. Nova Synthesis delivered a military-grade frontend with zero compromise on aesthetics.",
+    text: "We needed a fortress that looked like a gallery. VYBNAD delivered a military-grade frontend with zero compromise on aesthetics.",
     signal: 100
   },
   {
     id: "LOG_112",
     client: "HyperLoop One",
     role: "Transportation",
-    text: "Efficiency is our currency. Nova optimized our rendering engine to run at 120fps on mobile. Absolute wizardry.",
+    text: "Efficiency is our currency. VYBAND optimized our rendering engine to run at 120fps on mobile. Absolute wizardry.",
     signal: 94
   },
   {
